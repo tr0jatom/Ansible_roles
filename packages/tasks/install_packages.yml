@@ -1,0 +1,9 @@
+- name: install_packages
+  shell: |
+    sudo apt-get update  
+- name: install_packages
+  apt:
+    name:
+      - nano
+      - htop
+      - python3-pip
